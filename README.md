@@ -1,4 +1,4 @@
-A gantt chart grid made in react.  Add tasks with name, effort, and dependency.  
+# A gantt chart grid made in react.  Add tasks with name, effort, and dependency.  
 
 Upon save/edit of a task all task efforts are reviewed.  The tasks in your project are ordered from left to right, in the order they should be done.
 
