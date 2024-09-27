@@ -8,8 +8,11 @@ Ways to improve it: First, it needs data persistence.  Redux has been useful for
 
 demo: https://gantt-grid.netlify.app/
 
-screenshot: 
+screenshots: 
 ![image](https://github.com/user-attachments/assets/8a4bdae4-5e63-45b8-8bd9-8a0e13984e57)
+
+![image](https://github.com/user-attachments/assets/77f7cca0-1f95-438d-bd8c-99f85c254587)
+
 
 This work is marked with CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1
 
