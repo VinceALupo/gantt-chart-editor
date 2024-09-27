@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+/* src/App.css */
+.app-container {
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.grid-header, .grid-row {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.grid-cell {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+  min-width: 70px;
+  height: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-cell {
+  font-weight: bold;
+}
+
+.task-name-cell {
+  min-width: 70px;
+  /* font-weight: bold; */
+}
+
+.dependent-task-cell {
+  min-width: 70px;
+  /* font-weight: bold; */
+}
+
+.task-bar {
+  background-color: #2aa02e;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 4px; */
+}
+
+.task-editor {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.task-editor input {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.task-editor button {
+  margin-top: 10px;
+  margin-right: 10px;
 }
