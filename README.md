@@ -1,3 +1,20 @@
+A gantt chart grid made in react.  Add tasks with name, effort, and dependency.  
+
+Upon save/edit of a task all task efforts are reviewed.  The tasks in your project are ordered from left to right, in the order they should be done.
+
+Visualize how you will perform your tasks for a project.  Results are displayed in a grid.  
+
+demo: https://gantt-grid.netlify.app/
+
+screenshot: 
+![image](https://github.com/user-attachments/assets/8a4bdae4-5e63-45b8-8bd9-8a0e13984e57)
+
+
+
+# -------------boiler plate react readme below----------------------
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
